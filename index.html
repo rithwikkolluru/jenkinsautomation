@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenkins Automation Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+        .container {
+            margin: 40px auto;
+            padding: 25px;
+            max-width: 600px;
+            background: white;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+        button {
+            background: #e8491d;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            margin-top: 40px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jenkins Automation</h1>
+        <p>Continuous Integration and Continuous Delivery</p>
+    </header>
+    <div class="container">
+        <h2>Welcome to My Project</h2>
+        <p>
+            This project demonstrates Jenkins automation
+            using a simple HTML web application.
+        </p>
+        <p>
+            Jenkins helps automate building, testing,
+            and deploying applications.
+        </p>
+        <button onclick="showMessage()">Click Here</button>
+        <p id="message"></p>
+    </div>
+    <footer>
+        <p>Created for DevOps Lab Experiment</p>
+    </footer>
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "Jenkins Automation is Working Successfully!";
+        }
+    </script>
+</body>
+</html>
